@@ -112,53 +112,16 @@
     }
 
     /* Responsive Design */
-  @media (max-width: 375px) {
-    body {
-      padding: 20px;
-    }
-
-    .container {
-      width: 100%;
-    }
-
-    #card-bg {
-      height: auto;
-    }
-
-    #pic {
-      top: -50px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-
-  @media (min-width: 1440px) {
-    body {
-      background-size: cover;
-    }
-
-    .container {
-      width: 400px;
-    }
-
-    #pic {
-      top: -70px;
-      width: 100px;
-      height: 100px;
-    }
-
-    #con-1 {
-      padding: 100px 20px 10px;
-    }
-
-    .text-1 {
-      font-size: 20px;
-    }
-
-    #age {
-      font-size: 20px;
-    }
-  }
+    @media screen and (min-width:300px) and (max-width:700px){
+ body{
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -710px bottom 50px, right -720px top 310px ;
+ } 
+ .card1{
+    top: 150px;
+ }  
+}
   </style>
 </head>
 
